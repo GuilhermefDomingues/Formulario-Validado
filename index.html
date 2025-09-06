@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Formulario Validado">
+    <meta name="keywords" content="Forms">
+    <meta name="author" content="Guilherme Domingues">
+    <meta name="robots" content="Index, follow">
+    <title>Formulario com Validação JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Form com validação JavaScript</h1>
+    <form id="form">
+        <label for="name">Nome:</label>
+        <input type="text" id="name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email">
+
+        <label for="password">Senha:</label>
+        <input type="password" id="password">
+
+        <label for="job">Situação de Trabalho:</label>
+        <select name="job" id="job">
+            <option value="">Está Buscando emprego?</option>
+            <option value="yes">Sim</option>
+            <option value="no">Não</option>
+        </select>
+        <label for="message">Mensagem:</label>
+        <textarea name="message" id="message"></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+<script src="FormJS.js" defer></script>
+</html>
